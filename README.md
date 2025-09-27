@@ -34,5 +34,5 @@ nix develop -c ./build.sh
 
 [m<sup>+</sup> fonts license]: LICENSE-Mplus_J
 [mitライセンス]: LICENSE.md
-[幅10dot]: https://github.com/ms0503/minecraft-mplus-bitmap-font/raw/HEAD/Minecraft%20Mplus%20Bitmap%20Font%2010x11.zip
-[幅12dot]: https://github.com/ms0503/minecraft-mplus-bitmap-font/raw/HEAD/Minecraft%20Mplus%20Bitmap%20Font%2012x13.zip
+[幅10dot]: https://github.com/ms0503/minecraft-mplus-bitmap-font/releases/latest/download/Minecraft.Mplus.Bitmap.Font.10x11.zip
+[幅12dot]: https://github.com/ms0503/minecraft-mplus-bitmap-font/releases/latest/download/Minecraft.Mplus.Bitmap.Font.12x13.zip
