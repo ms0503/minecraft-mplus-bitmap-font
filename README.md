@@ -23,6 +23,6 @@
 ただし、同梱するM<sup>+</sup> BITMAP FONTSは[M<sup>+</sup> FONTS License]が適用されます。
 
 [m<sup>+</sup> fonts license]: LICENSE-Mplus_J
-[minecraft mplus bitmap font 10x11.zip]: Minecraft+Mplus+Bitmap+Font+10x11.zip
-[minecraft mplus bitmap font 12x13.zip]: Minecraft+Mplus+Bitmap+Font+12x13.zip
+[minecraft mplus bitmap font 10x11.zip]: https://github.com/ms0503/minecraft-mplus-bitmap-font/raw/HEAD/Minecraft%20Mplus%20Bitmap%20Font%2010x11.zip
+[minecraft mplus bitmap font 12x13.zip]: https://github.com/ms0503/minecraft-mplus-bitmap-font/raw/HEAD/Minecraft%20Mplus%20Bitmap%20Font%2012x13.zip
 [mitライセンス]: LICENSE.md
