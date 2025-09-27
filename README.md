@@ -17,6 +17,16 @@
 このファイルをプロファイル内の`resourcepacks`ディレクトリに移動させれば完了です。\
 例えば、デフォルトのままであれば`%appdata%\.minecraft\resourcepacks`(Windows)・`~/.minecraft/resourcepacks`(Linux・Mac)の中に入れます。
 
+## ビルド方法
+
+ビルドには`nix-command`と`flakes`の`experimental-features`が有効化されたNixが必要です。
+
+リポジトリルートで以下のコマンドを叩くと生成されます。
+
+```shell
+nix develop -c ./build.sh
+```
+
 ## ライセンス
 
 リソースパック・ビルドツールは[MITライセンス]で配布します。\
