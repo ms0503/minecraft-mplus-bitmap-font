@@ -1,0 +1,7 @@
+**/.direnv/
+.pre-commit-config.yaml
+JIS0208.TXT
+build/
+jis0208.tsv
+result*
+target/

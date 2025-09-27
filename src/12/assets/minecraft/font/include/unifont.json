@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "ascent": 9,
+            "chars": [],
+            "file": "font/mplus_j12r.png",
+            "height": 10,
+            "type": "bitmap"
+        }
+    ]
+}
