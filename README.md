@@ -19,7 +19,7 @@
 
 ## ライセンス
 
-リソースパックそのものは[MITライセンス]で配布します。\
+リソースパック・ビルドツールは[MITライセンス]で配布します。\
 ただし、同梱するM<sup>+</sup> BITMAP FONTSは[M<sup>+</sup> FONTS License]が適用されます。
 
 [m<sup>+</sup> fonts license]: LICENSE-Mplus_J
