@@ -1,22 +1,23 @@
 { inputs, ... }:
 {
   imports = [
-    inputs.treefmt-nix.flakeModule
+    (inputs.treefmt-nix.flakeModule or { })
   ];
   perSystem =
-    { inputs', pkgs, ... }:
     {
+      inputs',
+      lib,
+      pkgs,
+      ...
+    }:
+    lib.optionalAttrs (inputs.treefmt-nix ? flakeModule) {
       treefmt.programs = {
         mdformat = {
           enable = true;
-          package = pkgs.mdformat.withPlugins (
+          plugins =
             ps: with ps; [
-              mdformat-footnote
-              mdformat-frontmatter
               mdformat-gfm
-              mdformat-tables
-            ]
-          );
+            ];
           settings = {
             end-of-line = "lf";
             number = true;
